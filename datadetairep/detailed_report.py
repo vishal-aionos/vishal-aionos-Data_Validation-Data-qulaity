@@ -155,8 +155,8 @@ def generate_detailed_report(df, detailed_scores_df, overall_score):
         html_content.append("</table>")
 
         # Add a note above the average quality scores table
-        if overall_score > 80:
-            quality_message = "<div class='note' style='color: green; align-items: center;'>NOTE : The overall data quality is considered good as it is above 80%.</div>"
+        if overall_score >= 80:
+            quality_message = "<div class='note' style='color: green;'>NOTE : The overall data quality is considered good as it is above 80%.</div>"
         else:
             quality_message = "<div class='note' style='color: red; align-items: center;'>The overall data quality is below 80%, indicating potential issues.</div>"
 
