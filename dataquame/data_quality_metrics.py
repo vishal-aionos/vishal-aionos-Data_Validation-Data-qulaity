@@ -133,3 +133,5 @@ def calculate_scores(df,df2, threshold_date=None, reference_columns=None):
 def overall_quality_score(scores_df):
     """Calculate the overall quality score as the mean of all scores."""
     return scores_df.mean().mean()
+
+

@@ -1,26 +1,31 @@
-ID,Date,Category,Value1,Value2,Email
-1,15-01-2023,,10,20,test@example.com
-2,20-02-2023,B,10,20,
-3,10-03-2023,,15,30,
-1,invalid,,20,40,
-invalid,NAN,,10,20,
-,18-06-2023,A,25,50,
-invalid,NAN,,10,20,
-8,15-08-2023,B,30,60,
-1,08-09-2023,,10,20,
-1,11-10-2023,,35,70,
-invalid,15-11-2023,B,10,20,
-1,invalid,A,40,80,
-invalid,invalid,C,10,20,invalid_email
-14,05-02-2024,,45,90,
-15,12-03-2024,,10,20,
-invalid,18-04-2024,C,50,100,
-17,22-05-2024,B,10,20,
-18,15-06-2024,,55,110,
-19,NAN,C,10,20,invalid_email
-20,invalid,B,60,120,
-21,15-09-2024,,10,20,
-22,invalid,,65,130,
-23,NAN,B,10,20,
-24,15-12-2024,A,70,140,
-25,20-12-2024,,10,20,
+customer_id,customer_name,email,purchase_date,purchase_amount
+75682867,Test Name,johndoe@example.com,2024-05-08,1000.00
+66755036,Jane Smith,jane.smith@example.com,2024-11-16,800.00
+66882282,Michael Brown,michael.brown@example.com,2020-03-05,490.00
+31081788,Emily Davis,emily.davis@example.com,2024-08-11,700.00
+23315092,Test Name,test.name@example.com,2022-01-22,300.00
+45788921,Sarah Johnson,sarah.johnson@example.com,2023-03-15,800.00
+36735830,Chris Lee,chris.lee@example.com,2024-07-25,220.00
+41632483,Anna White,anna.white@example.com,2024-02-10,180.00
+86737383,Test Name,test.name2@example.com,2023-12-30,950.00
+98358551,Patricia Miller,patricia.miller@example.com,2024-06-18,310.00
+98409749,Test Name,robert.young@example.com,2021-10-22,730.00
+14981505,Linda King,linda.king@example.com,2023-11-25,255.00
+23953367,Charles Scott,charles.scott@example.com,2020-09-11,840.00
+95652971,Barbara Green,barbara.green@example.com,2024-04-04,310.00
+14521373,Daniel Adams,daniel.adams@example.com,2022-08-09,550.00
+13344769,Elizabeth Baker,elizabeth.baker@example.com,2023-02-17,930.00
+86893497,Matthew Hill,matthew.hill@example.com,2023-07-13,100.00
+40349564,Jennifer Roberts,jennifer.roberts@example.com,2024-03-30,710.00
+52860080,Thomas Nelson,thomas.nelson@example.com,2021-05-14,600.00
+87751354,Susan Carter,susan.carter@example.com,2023-08-27,810.00
+72250665,Paul Mitchell,paul.mitchell@example.com,2024-10-03,350.00
+76209791,Nancy Perez,nancy.perez@example.com,2024-09-21,410.00
+56792155,Mark Edwards,mark.edwards@example.com,2020-12-11,620.00
+31498555,Lisa Collins,lisa.collins@example.com,2022-05-06,925.00
+70221198,George Evans,george.evans@example.com,2024-01-19,320.00
+87751354,Susan Carter,susan.carter@example.com,2023-08-27,820.00
+86893497,Matthew Hill,matthew.hill@example.com,2023-07-13,120.00
+75682867,John Doe,johndoe@example.com,2024-05-08,930.00
+95652971,Barbara Green,barbara.green@example.com,2024-04-04,305.00
+66755036,Jane Smith,jane.smith@example.com,2024-11-16,850.00

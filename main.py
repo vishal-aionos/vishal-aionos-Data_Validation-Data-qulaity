@@ -11,8 +11,8 @@ matplotlib.use("Agg")
 if __name__ == "__main__":
     try:
         # Step 1: Load the dataset
-        dataset_path = "Ds'S\\sample.csv"
-        dataset_path2="Ds'S\\second_dataset.csv"
+        dataset_path = "Ds'S\\dataset_with_issues.csv"
+        dataset_path2="Ds'S\\detail_ds.csv"
         df = load_dataset(dataset_path)
         df2= load_dataset(dataset_path2)
 
